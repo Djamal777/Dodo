@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.imageview.ShapeableImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="130dp"
+    android:id="@+id/banner"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scaleType="fitXY"
+    app:shapeAppearanceOverlay="@style/roundedBanner"
+    android:layout_margin="16dp"
+    android:elevation="4dp"/>
